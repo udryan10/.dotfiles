@@ -13,6 +13,7 @@ https://github.com/mathiasbynens/dotfiles
     h # history
     j # jobs
     c # copy text clipboard
+    g # git 
     l # list files colorized in long format
     la # list files colorized including dot files
     lsd # list only directories
@@ -23,4 +24,5 @@ https://github.com/mathiasbynens/dotfiles
     showdesktop/hidedesktop # show/hide desktop icons
     urlencode # url-encode strings
     mergepdf # merge pdf files
-    
+    reload # reload the shell
+    afk # enable screen saver locking screen    
