@@ -29,3 +29,16 @@ https://github.com/mathiasbynens/dotfiles
     reload # reload the shell
     afk # enable screen saver locking screen    
     week # get week number
+    calc <4*2> # basic calculator 
+    mkd <name> # make directory and cd to it
+    targz <file> # create a .tar.gz archive
+    fs <file or dir> # determine size of file or total size of directory
+    server # start SimpleHTTPServer in curent directory
+    gz <file> # compare original and gzipped file size
+    json # syntax highlight JSON strings or files
+    digga # all the dig info 
+    getcertnames # show all names in SSL certificate
+    open_sublime # opens current directory in sublime
+    open_vim # opens current directory in vim
+    o # opens current directory in finder
+    
