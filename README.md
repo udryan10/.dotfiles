@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## Installation
 
 ### Using Git and the bootstrap script
@@ -82,3 +83,7 @@ You could also install native apps with [`brew cask`](https://github.com/phinze/
 ```bash
 ./.cask
 ```
+=======
+.dotfiles
+=========
+>>>>>>> 1f8d6ab8a16f6183333d6224cb9d1ec85218d3b6
