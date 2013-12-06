@@ -8,6 +8,7 @@ https://github.com/mathiasbynens/dotfiles
     ... # up two directories
     .... # up three directories
     ..... # up four directories
+    -- # cd -
     dl # cd to downloads
     dt # cd to desktop
     h # history
@@ -15,6 +16,7 @@ https://github.com/mathiasbynens/dotfiles
     c # copy text clipboard
     g # git 
     l # list files colorized in long format
+    s # open sublime
     la # list files colorized including dot files
     lsd # list only directories
     update # update osx, brew npm, gem
@@ -26,3 +28,4 @@ https://github.com/mathiasbynens/dotfiles
     mergepdf # merge pdf files
     reload # reload the shell
     afk # enable screen saver locking screen    
+    week # get week number
