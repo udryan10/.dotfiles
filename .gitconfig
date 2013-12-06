@@ -11,8 +11,12 @@
 	p = !"git pull; git submodule foreach git pull origin master"
 	# Clone a repository including all submodules
 	c = clone --recursive
+  # add
+  a = add
 	# Commit all changes
 	ca = !git add -A && git commit -av
+  # commit and specify message
+  c = commit -m 
 	# Switch to a branch, creating it if necessary
 	go = checkout -B
 	# Show verbose output about tags, branches or remotes
@@ -79,3 +83,6 @@
 
 [push]
 	default = matching
+[user]
+	name = Ryan Grothouse
+	email = ryan.grothouse@ge.com
