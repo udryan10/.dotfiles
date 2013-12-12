@@ -1,5 +1,6 @@
 # Add `~/bin` to the `$PATH`
 export PATH="$HOME/bin:$PATH"
+export JAVA_HOME=$(/usr/libexec/java_home)
 
 # Load the shell dotfiles, and then some:
 # * ~/.path can be used to extend `$PATH`.
