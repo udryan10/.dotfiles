@@ -1,7 +1,6 @@
 # Add `~/bin` to the `$PATH`
 export JAVA_HOME=$(/usr/libexec/java_home)
-export EC2_HOME="/Users/220034900/bin/ec2-api-tools-1.6.12.0"
-export PATH="$HOME/bin:$PATH:$EC2_HOME/bin"
+export PATH="$HOME/bin:$PATH"
 
 # Load the shell dotfiles, and then some:
 # * ~/.path can be used to extend `$PATH`.
