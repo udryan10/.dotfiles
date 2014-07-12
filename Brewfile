@@ -30,6 +30,13 @@ install rename
 install tree
 install webkit2png
 install zopfli
+install docker
+install boot2docker
+install go
+install nmap
+install openssl
+install iperf
+install erlang
 
 tap homebrew/versions
 
