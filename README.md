@@ -2,7 +2,7 @@
 my dotfiles are a fork of the popular mathiasbynens dotfiles with my own customizations. He has an excellent README that still applies to my forked version:
 https://github.com/mathiasbynens/dotfiles
 
-    git clone git@git@github.com:udryan10/.dotfiles.git ~/.dotfiles && cd ~/.dotfiles && source bootstrap.sh
+    git clone https://github.com/udryan10/.dotfiles.git ~/.dotfiles && cd ~/.dotfiles && source bootstrap.sh
 
 ### Customizations:
     .. # up a directory
