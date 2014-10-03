@@ -1,2 +1,0 @@
-export http_proxy=http://http-proxy.amer.consind.ge.com:8080
-export https_proxy=http://http-proxy.amer.consind.ge.com:8080

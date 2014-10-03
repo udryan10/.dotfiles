@@ -37,6 +37,7 @@ install nmap
 install openssl
 install iperf
 install erlang
+install watch
 
 tap homebrew/versions
 
