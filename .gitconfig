@@ -74,7 +74,7 @@
 	default = matching
 [user]
 	name = Ryan Grothouse
-	email = ryan.grothouse@ge.com
+	email = ryan.grothouse@kyderby.com
 [diff]
 	tool = diffmerge
 [difftool "diffmerge"]
