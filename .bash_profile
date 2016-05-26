@@ -45,5 +45,5 @@ complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes Syste
 source ~/.git-completion.bash
 
 # setup go environment
-export GOROOT=/usr/local/Cellar/go/1.5.1/libexec/
+export GOROOT=/usr/local/Cellar/go/1.6.2/libexec/
 export GOPATH=/Users/rgrothouse/Documents/code/go/
