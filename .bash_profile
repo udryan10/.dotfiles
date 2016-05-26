@@ -46,4 +46,4 @@ source ~/.git-completion.bash
 
 # setup go environment
 export GOROOT=/usr/local/Cellar/go/1.5.1/libexec/
-export GOPATH=/Users/ryan.grothouse/Documents/code/gocode/
+export GOPATH=/Users/rgrothouse/Documents/code/go/
