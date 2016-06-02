@@ -47,3 +47,4 @@ source ~/.git-completion.bash
 # setup go environment
 export GOROOT=/usr/local/Cellar/go/1.6.2/libexec/
 export GOPATH=/Users/rgrothouse/Documents/code/go/
+export PATH="$HOME/bin:$PATH:$GOPATH/bin/"
