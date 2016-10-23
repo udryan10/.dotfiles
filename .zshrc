@@ -56,7 +56,7 @@ plugins=(git colored-man colorize docker github jira vagrant virtualenv pip pyth
 
 
 source $ZSH/oh-my-zsh.sh
-source ~/zsh-env
+source ~/.zsh-env
 
 # User configuration
 
