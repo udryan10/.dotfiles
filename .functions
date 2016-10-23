@@ -311,3 +311,40 @@ function np() {
 function tre() {
 	tree -aC -I '.git|node_modules|bower_components' --dirsfirst "$@" | less -FRNX
 }
+
+kit() {
+    if [ $# -eq 0 ]
+      then
+        echo "No arguments supplied"
+    else
+        case $1 in
+          test)
+            kitchen $1 $2
+            if [ $? -eq 0 ]; then
+              osascript -e "display notification \"Kitchen $1 $2 successful\" with title \"Kitchen Run Complete\""
+            else
+              osascript -e "display notification \"Kitchen $1 $2 failed\" with title \"Kitchen Run Complete\""
+            fi
+            ;;
+          converge)
+            kitchen $1 $2
+            if [ $? -eq 0 ]; then
+              osascript -e "display notification \"Kitchen $1 $2 successful\" with title \"Kitchen Run Complete\""
+            else
+              osascript -e "display notification \"Kitchen $1 $2 failed\" with title \"Kitchen Run Complete\""
+            fi
+            ;;
+          verify)
+            kitchen $1 $2
+            if [ $? -eq 0 ]; then
+              osascript -e "display notification \"Kitchen $1 $2 successful\" with title \"Kitchen Run Complete\""
+            else
+              osascript -e "display notification \"Kitchen $1 $2 failed\" with title \"Kitchen Run Complete\""
+            fi
+            ;;
+          *)
+            kitchen $1 $2
+            ;;
+        esac
+    fi
+}

@@ -71,7 +71,7 @@
 	tool = diffmerge
 
 [push]
-	default = matching
+	default = current
 [user]
 	name = Ryan Grothouse
 	email = rgrothouse@gmail.com
@@ -84,3 +84,7 @@
 	cmd = /usr/bin/diffmerge --merge --result=\"$MERGED\" \"$LOCAL\" \"$BASE\" \"$REMOTE\"
 [branch]
 	autosetuprebase = always
+[credential]
+    helper = osxkeychain
+[init]
+  templatedir = ~/.git_template/

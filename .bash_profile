@@ -1,6 +1,11 @@
 # Add `~/bin` to the `$PATH`
 export JAVA_HOME=$(/usr/libexec/java_home)
 export PATH="$HOME/bin:$PATH"
+export ENVIRONMENT=local
+
+# setup go environment
+export GOROOT=/usr/local/Cellar/go/1.6.2/libexec/
+export GOPATH=/Users/rgrothouse/Documents/code/go/
 
 # Load the shell dotfiles, and then some:
 # * ~/.path can be used to extend `$PATH`.
@@ -44,7 +49,4 @@ complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes Syste
 # tab completion for git
 source ~/.git-completion.bash
 
-# setup go environment
-export GOROOT=/usr/local/Cellar/go/1.6.2/libexec/
-export GOPATH=/Users/rgrothouse/Documents/code/go/
 export PATH="$HOME/bin:$PATH:$GOPATH/bin/"

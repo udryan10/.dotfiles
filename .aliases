@@ -12,9 +12,7 @@ alias g="git"
 alias h="history"
 alias j="jobs"
 
-alias cddo="cd ~/Documents/code/github.cdinteractive.com/devops/"
-alias cdco="cd ~/Documents/code/github.cdinteractive.com/"
-alias cdgo="cd ~/Documents/code/gocode/"
+alias cdgo="cd ${GOPATH}src/github.com/GannettDigital/"
 
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`
