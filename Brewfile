@@ -20,7 +20,6 @@ install vim --override-system-vi
 tap homebrew/dupes
 install homebrew/dupes/grep
 tap josegonzalez/homebrew-php
-install php55
 
 install git
 install lynx
@@ -38,6 +37,7 @@ install openssl
 install iperf
 install erlang
 install watch
+install vim
 
 tap homebrew/versions
 
